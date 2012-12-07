@@ -1,0 +1,25 @@
+{ "name": "IntelHex",
+  "scopeName": "text.intelhex",
+  "fileTypes": ["hex"],
+  "patterns": [
+
+  	{ "match": "^(:)([0-9A-Fa-f]{2})([0-9A-Fa-f]{4})([0-9A-Fa-f]{2})",
+		  "name": "keyword.intelhex",
+		  "captures": {
+              "1": { "name": "string.intelhex" },
+              "2": { "name": "constant.other.intelhex" },
+              "3": { "name": "keyword.intelhex" },
+              "4": { "name": "comment.intelhex" }
+           }
+		},
+
+		{ "match": "([0-9A-Fa-f]{2})$",
+		  "name": "constant.other.intelhex",
+		  "captures": {
+              "1": { "name": "constant.other.intelhex" }
+           }
+		}
+
+  ],
+  "uuid": "bc29b8ac-b03b-49cb-9173-2f7fd35e2299"
+}
