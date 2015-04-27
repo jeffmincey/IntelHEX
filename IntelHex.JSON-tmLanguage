@@ -6,17 +6,17 @@
   	{ "match": "^(:)([0-9A-Fa-f]{2})([0-9A-Fa-f]{4})([0-9A-Fa-f]{2})",
 		  "name": "keyword.intelhex",
 		  "captures": {
-              "1": { "name": "string.intelhex" },
-              "2": { "name": "constant.other.intelhex" },
-              "3": { "name": "keyword.intelhex" },
+              "1": { "name": "constant.other.intelhex" },
+              "2": { "name": "keyword.intelhex" },
+              "3": { "name": "string.intelhex" },
               "4": { "name": "comment.intelhex" }
            }
 		},
 
 		{ "match": "([0-9A-Fa-f]{2})$",
-		  "name": "constant.other.intelhex",
+		  "name": "keyword.intelhex",
 		  "captures": {
-              "1": { "name": "constant.other.intelhex" }
+              "1": { "name": "keyword.intelhex" }
            }
 		}
 

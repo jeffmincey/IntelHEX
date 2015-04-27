@@ -16,17 +16,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>string.intelhex</string>
+					<string>constant.other.intelhex</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other.intelhex</string>
+					<string>keyword.intelhex</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.intelhex</string>
+					<string>string.intelhex</string>
 				</dict>
 				<key>4</key>
 				<dict>
@@ -45,13 +45,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.other.intelhex</string>
+					<string>keyword.intelhex</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>([0-9A-Fa-f]{2})$</string>
 			<key>name</key>
-			<string>constant.other.intelhex</string>
+			<string>keyword.intelhex</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
